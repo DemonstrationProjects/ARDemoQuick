@@ -1,7 +1,7 @@
 <div id="ar-container">
   <a id="ar-link" href="https://raw.githubusercontent.com/DemonstrationProjects/ARDemoQuick/main/Character.usdz" rel="ar" class="App-mobile">
     <img src="Preview.png" class="App-mobile-preview">
-    <button>Посмотреть</button>
+    <button class="App-button">Посмотреть</button>
   </a>
 </div>
 
@@ -23,6 +23,22 @@
   .App-mobile-preview {
     height: 50vh;
     margin-bottom: 0px;
+  }
+  .App-button {
+    padding: 16px 24px;
+    font-size: 1.2rem;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 320px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+  }
+  .App-button:hover {
+    background-color: #005fcc;
   }
 </style>
 
